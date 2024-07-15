@@ -142,7 +142,7 @@ dragGUI(mainframe)
 
 local function resizeUI()
 	local screenSize = workspace.CurrentCamera.ViewportSize
-	local newSize = UDim2.new(0, math.min(830, screenSize.X * 0.8), 0, math.min(700, screenSize.Y * 0.8))
+	local newSize = UDim2.new(0, math.min(495, screenSize.X * 0.8), 0, math.min(357, screenSize.Y * 0.8))
 	local newPosition = UDim2.new(0.5, -newSize.X.Offset / 2, 0.5, -newSize.Y.Offset / 2)
 
 	mainframe:TweenSize(newSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
@@ -182,7 +182,7 @@ sidebartitle.Parent = sidebar
 local sidebarversion = Instance.new("TextLabel")
 sidebarversion.Size = UDim2.new(1, -6, 0, 50)
 sidebarversion.TextSize = 20
-sidebarversion.Text = "roblox"
+sidebarversion.Text = "Mobile"
 sidebarversion.Font = Enum.Font.SourceSans
 sidebarversion.BackgroundTransparency = 1
 sidebarversion.TextColor3 = Color3.new(1, 1, 1)
