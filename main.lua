@@ -295,8 +295,8 @@ VapeGui["MainGui"].ScaledGui.ClickGui:GetPropertyChangedSignal("Visible"):connec
 	if VapeGui["MainGui"].ScaledGui.ClickGui.Visible then
 		guilib.ScreenGui.MainFrame.Size = UDim2.new(0, 495, 0, 357)
 		guilib.ScreenGui.MainFrame.Position = UDim2.new(0.176, 0, 0.044, 0)
-		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 830, 0, 700), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
-		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.5, -330, 0.5, -368), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 495, 0, 357), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.176, 0, 0.044, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
 	end
 end)
 local windowtabs = {
