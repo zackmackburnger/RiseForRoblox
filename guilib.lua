@@ -143,7 +143,8 @@ dragGUI(mainframe)
 local function resizeUI()
 	local screenSize = workspace.CurrentCamera.ViewportSize
 	local newSize = UDim2.new(0, math.min(495, screenSize.X * 0.8), 0, math.min(357, screenSize.Y * 0.8))
-	local newPosition = UDim2.new(0.5, -newSize.X.Offset / 2, 0.5, -newSize.Y.Offset / 2)
+	local newPosition = UDim2.new(0.176, -newSize.X.Offset / 0, 0.044, -newSize.Y.Offset / 0)
+	
 
 	mainframe:TweenSize(newSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
 	mainframe:TweenPosition(newPosition, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
