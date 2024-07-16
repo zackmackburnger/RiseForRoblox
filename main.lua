@@ -380,7 +380,7 @@ infolab4.TextSize = 30
 infolab4.Font = Enum.Font.SourceSansLight
 infolab4.Text = [[
 Roblox Vape conversion - Xylex
-Modules - Skidware
+Modules - Voidware
 Original Client - Alan32, Techniom Strikeless, Nicklas, Auth, Hazsi, Solastis & Billionare
 intent.store riseclient.com
 
