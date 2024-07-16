@@ -293,10 +293,10 @@ VapeGui["MainGui"].ScaledGui.ClickGui:GetPropertyChangedSignal("Visible"):connec
 		game:GetService("RunService"):SetRobloxGuiFocused(false)	
 	end)
 	if VapeGui["MainGui"].ScaledGui.ClickGui.Visible then
-		guilib.ScreenGui.MainFrame.Size = UDim2.new(0, 533, 0, 313)
-		guilib.ScreenGui.MainFrame.Position = UDim2.new(0.157, 0, 0.1, 0)
-		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 533, 0, 3133), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
-		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.157, 0, 0.1, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame.Size = UDim2.new(0, 495, 0, 357)
+		guilib.ScreenGui.MainFrame.Position = UDim2.new(0.176, 0, 0.044, 0)
+		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 495, 0, 357), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.176, 0, 0.044, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
 	end
 end)
 local windowtabs = {
@@ -348,7 +348,7 @@ infolab1.Position = UDim2.new(0, 124, 0, 155)
 infolab1.TextColor3 = Color3.fromRGB(180, 180, 180)
 infolab1.TextSize = 90
 infolab1.Font = Enum.Font.SourceSans
-infolab1.Text = "Riseware"
+infolab1.Text = "Rise"
 infolab1.TextXAlignment = Enum.TextXAlignment.Left
 infolab1.TextYAlignment = Enum.TextYAlignment.Bottom
 infolab1.BackgroundTransparency = 1
@@ -358,7 +358,7 @@ infolab2.Position = UDim2.new(0, 250, 0, 136)
 infolab2.TextColor3 = Color3.fromRGB(130, 130, 130)
 infolab2.TextSize = 40
 infolab2.Font = Enum.Font.SourceSans
-infolab2.Text = "roblox"
+infolab2.Text = "mobile"
 infolab2.TextXAlignment = Enum.TextXAlignment.Left
 infolab2.TextYAlignment = Enum.TextYAlignment.Top
 infolab2.BackgroundTransparency = 1
@@ -368,7 +368,7 @@ infolab3.Position = UDim2.new(0, 124, 0, 263)
 infolab3.TextColor3 = Color3.fromRGB(180, 180, 180)
 infolab3.TextSize = 30
 infolab3.Font = Enum.Font.SourceSansLight
-infolab3.Text = "Registered to Voidware"
+infolab3.Text = "Optimized for mobile"
 infolab3.TextXAlignment = Enum.TextXAlignment.Left
 infolab3.TextYAlignment = Enum.TextYAlignment.Top
 infolab3.BackgroundTransparency = 1
@@ -380,17 +380,15 @@ infolab4.TextSize = 30
 infolab4.Font = Enum.Font.SourceSansLight
 infolab4.Text = [[
 Roblox Vape conversion - Xylex
-Modules - Vape and Voidware
-Orignal Client by Alan32, Technio
-Strikeless, Nicklas, Auth,
-Hazsi, Solastis
-and Billionare
-intent.store
-riseclient.com
-    
+Modules - Skidware
+Original Client - Alan32, Techniom Strikeless, Nicklas, Auth, Hazsi, Solastis & Billionare
+intent.store riseclient.com
+
 Roblox Port by 7GrandDad
-All rights goto the Rise Team
+All Rights goto The Rise Team.
 ]]
+
+
 infolab4.TextXAlignment = Enum.TextXAlignment.Left
 infolab4.TextYAlignment = Enum.TextYAlignment.Top
 infolab4.BackgroundTransparency = 1
@@ -706,7 +704,7 @@ end
 
 
 local risetext = Instance.new("TextLabel")
-risetext.Text = "Riseware"
+risetext.Text = ""
 risetext.Font = Enum.Font.TitilliumWeb
 risetext.TextSize = 53
 risetext.TextColor3 = Color3.new(1, 1, 1)
