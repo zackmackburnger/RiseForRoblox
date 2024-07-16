@@ -293,10 +293,10 @@ VapeGui["MainGui"].ScaledGui.ClickGui:GetPropertyChangedSignal("Visible"):connec
 		game:GetService("RunService"):SetRobloxGuiFocused(false)	
 	end)
 	if VapeGui["MainGui"].ScaledGui.ClickGui.Visible then
-		guilib.ScreenGui.MainFrame.Size = UDim2.new(0, 495, 0, 357)
-		guilib.ScreenGui.MainFrame.Position = UDim2.new(0.176, 0, 0.044, 0)
-		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 495, 0, 357), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
-		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.176, 0, 0.044, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame.Size = UDim2.new(0, 533, 0, 313)
+		guilib.ScreenGui.MainFrame.Position = UDim2.new(0.157, 0, 0.1, 0)
+		guilib.ScreenGui.MainFrame:TweenSize(UDim2.new(0, 533, 0, 3133), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
+		guilib.ScreenGui.MainFrame:TweenPosition(UDim2.new(0.157, 0, 0.1, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quad, 0.2, true)
 	end
 end)
 local windowtabs = {
