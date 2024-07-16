@@ -1,3 +1,4 @@
+
 local uilib = {}
 local getasset = getsynasset or getcustomasset or function(location) return "rbxasset://"..location end
 local requestfunc = syn and syn.request or http and http.request or http_request or fluxus and fluxus.request or request or function(tab)
@@ -131,9 +132,9 @@ end
 shared.testuirise = uilib.ScreenGui
 
 local mainframe = Instance.new("Frame")
-mainframe.Size = UDim2.new(0, 495, 0, 357)
+mainframe.Size = UDim2.new(0, 533, 0, 313)
 mainframe.BackgroundColor3 = Color3.fromRGB(27, 23, 33)
-mainframe.Position = UDim2.new(0.176, 0, 0.044, 0)
+mainframe.Position = UDim2.new(0.157, 0, 0.1, 0)
 mainframe.Name = "MainFrame"
 mainframe.Parent = uilib.ScreenGui
 mainframe.ZIndex = 2
@@ -142,9 +143,9 @@ dragGUI(mainframe)
 
 local function resizeUI()
 	local screenSize = workspace.CurrentCamera.ViewportSize
-	local newSize = UDim2.new(0, math.min(495, screenSize.X * 0.8), 0, math.min(357, screenSize.Y * 0.8))
-	local newPosition = UDim2.new(0.176, -newSize.X.Offset / 0, 0.044, -newSize.Y.Offset / 0)
-	
+	local newSize = UDim2.new(0, math.min(533, screenSize.X * 0), 0, math.min(313, screenSize.Y * 0))
+	local newPosition = UDim2.new(0.157, -newSize.X.Offset / 0, 0.1, -newSize.Y.Offset / 0)
+
 
 	mainframe:TweenSize(newSize, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
 	mainframe:TweenPosition(newPosition, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, 0.2, true)
